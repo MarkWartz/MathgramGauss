@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Упс! Страница не найдена</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 40px 20px;
+        }
+
+        .error-message h1 {
+            font-size: 48px;
+            color: #e63946;
+            margin-bottom: 20px;
+        }
+
+        .error-message p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;;
+        }
+
+        @media (max-width: 600px) {
+            .error-message h1 {
+                font-size: 32px;
+            }
+            .error-message p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="404-image.png" alt="404 Not Found" style="max-width: 15%; height: auto;">
+        </div>
+        <div class="error-message">
+            <h1>Упс!</h1>
+            <p>Простите, но похоже страницы больше не существует!</p>
+            <p>Возможно она продвигала инфоцыганство или иные виды скама.</p>
+            <a href="C:/Users/luckf/OneDrive/Рабочий стол/GaussSite/index.html" class="button">Вернуться на главную</a>
+        </div>
+    </div>
+</body>
+</html>
